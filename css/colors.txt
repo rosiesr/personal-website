@@ -1,0 +1,8 @@
+/* CSV */
+383d3b,7c7c7c,eee5e9,92dce5,52dee5
+
+/* Array */
+["383d3b","7c7c7c","eee5e9","92dce5","52dee5"]
+
+/* Object */
+{"Black Olive":"383d3b","Gray Web":"7c7c7c","Lavender Blush":"eee5e9","Middle Blue":"92dce5","Dark Turquoise":"52dee5"}

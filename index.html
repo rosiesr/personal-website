@@ -7,48 +7,55 @@
         <link href="css/styles.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        
         <header>
-         <img src="img/logo.png" alt="Rosie website logo" class="logo"> 
-         <h1 class="main_title">
-             Rosie Rothschild
-         </h1>  
-    
          <nav>
-                <u1>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Contact</a></li>
-                </u1>
+                <ul class="navbar">
+                    <li><img src="img/logo.png" alt="Rosie website logo" class="logo"> </li>
+                    <li><h1 class="main_title">Rosie Rothschild</h1></li>
+                    <li><a href="index.html" class="bar">Home</a></li>
+                    <li><a href="" class="bar">About</a></li>
+                    <li><a href="" class="bar">Projects</a></li>
+                    <li><a href="resume.html" class="bar">Resume</a></li>
+
+                </ul>
             </nav>
         </header>
-
+        <div class="page-container content-wrap">
         <section class="home-intro">
-            <h1 class= "title"> Inquisitive, Creative, Dynamic
+            <div class="main center">
+            <h1 class= "title"> Inquisitive, Creative, Dynamic –
                 <span> A leader and team player looking to grow</span>
             </h1>
-
             <a href="" class="button button-accent">See my work</a>
+            </div>
         </section>
-        <br>
         <hr>
-        <br>
         <section class="home-about">
-            <div class="home-about-text">
+            <div class="home-about-text main center">
                 <h1 class="title">About Me</h1>
-                <p>I am currently on a gap semester after finishing my first year at Yale.  I'm an electrical engineering
-                    and computer science major with a passion for social justice.  I want to have a positive impact
-                    on the world and in my free time I enjoy playing sports.
-                </p>
+                <div class="row">
+                    <div class="columnsmall">
+                        <img src="img/headshot_outline.png" alt="picture of me" align="left" class="portrait"/>
+                    </div>
+                    <div class="columnlong">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <p>I was born and raised in South Florida, and for as long as I can remember, 
+                            I’ve loved the problem-solving nature and infinite challenges of math and science.  
+                            Throughout high school, I worked on a math research project and began learning computer science, 
+                            which led me to major in electrical engineering and computer science at Yale.  I’ve always had a 
+                            passion for community, so I’ve been heavily involved in student council since middle school and 
+                            currently serve as a Senator and Deputy policy director for the Yale College Council.  In my free time, I love playing 
+                            and watching sports –especially soccer– and love throwing pottery.</p>
+                    </div>
+                </div>
             </div>
 
-
         </section>
-        <br>
-        <hr>
-        <br>
-        <section class="project-item">
+        <section class="project-item ">
+            <div class="main">
             <h1 class="title">See my work</h1>
             
             <!--project item 1-->
@@ -68,16 +75,19 @@
                     <a href="" class="button button-accent button-small">Project Details</a>
                 </figcaption>
             </figure>
-
+            </div>
         </section>
+        </div>
 
         <footer>
+            <div class="main">
             <p class="footer">Please reach out and feel free to contact me on LinkedIn or through email.</p>
 
-            <u1>
+            <ul>
                 <li class="footer"><a href="mailto: rosie.rothschild@yale.edu" class="button button-accent button-small">Email</a></li>
                 <li class="footer"><a href="https://www.linkedin.com/in/rosie-rothschild/" class="button button-accent button-small">LinkedIn</a></li>
-            </u1>
+            </ul>
+            </div>
         </footer>
 
     </body>
