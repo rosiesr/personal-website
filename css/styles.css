@@ -30,6 +30,7 @@ h1.main_title {
 }
 h1.title {
     color: #52DEE5;
+    font-size: xx-large;
 }
 h1.subheading{
     color: #EEE5E9;
@@ -112,7 +113,7 @@ a {
     color: #EEE5E9
 }
 a:link {
-    color: #7C7C7C;
+    color:black;
 }
   
   /* visited link */
@@ -130,11 +131,13 @@ a:visited {
     position: relative;
     padding-bottom: 100px; /* height of your footer */
   }
-  
+.main-body{
+    height: 87vh;
+}
+
   
 footer {
     position: absolute;
-    bottom: 0;
     width: 100%;
     background-color: #92DCE5; 
          /* Footer height */
@@ -148,18 +151,30 @@ img.portrait {
     text-align: center;
   }
 
+
 .containerdivNewLine { clear: both; float: left; display: block; position: relative; } 
 
 section.home-intro {
-    /*background-color: #92DCE5;*/
+    height: auto;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #7C7C7C;
+
 }
 
 section.home-about {
-    /*background-color: #92DCE5;*/
+    height: auto;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #7C7C7C;
+    
 }
 
 p.footer {
     color: black;
+    font-size: small;
     /*margin: 4px;*/
 }
 
@@ -178,4 +193,102 @@ a.button {
     font-size: 16px;
     margin: 2px 2px;
     border-radius: 4px;
+}
+
+.button-small{
+    font-size: small;
+    padding: 2px;
+    border-radius: 2px;
+    background-color: #EEE5E9;
+    display: inline-block;
+    margin: 2px 2px;
+    border: none;
+}
+
+/*
+ * Globals
+ */
+
+/* Links */
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+.cover-container {
+  max-width: 42em;
+}
+
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
 }
